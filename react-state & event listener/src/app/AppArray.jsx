@@ -24,7 +24,6 @@ export default function AppArray() {
     function updateAtoH() {
         setArray(array => array.map(item => (item === "A" ? "H" : item)));
     }
-
     function addLetterAtIndex(letter, index) {
         setArray(array => [...array.slice(0, index), letter, ...array.slice(index)]);
     }
