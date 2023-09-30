@@ -25,6 +25,7 @@ export default function AppUseEffect() {
 
     return (
         <div>
+            <hr />
             <input value={name} onChange={e => setName(e.target.value)} />
             <br />
             <br />
@@ -36,6 +37,7 @@ export default function AppUseEffect() {
             <br />
             <br />
             {width}
+            <hr />
         </div>
     );
 }
