@@ -26,7 +26,7 @@
     text-decoration: line-through;
 }
 
-[data-list-item-checkbox]:checked ~ [data-list-item-text] {
+[data-list-item-checkbox]:checked + [data-list-item-text] {
     text-decoration: line-through;
     color: #aaa;
 }
